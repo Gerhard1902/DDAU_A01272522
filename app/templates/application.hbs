@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
 
-{{outlet}}
+<h1>Click on the button to know the result</h1>
+<p>Component 1 is Prime?</p>
+<List @array={{this.numbers}} @button={{this.prime}}></List>
+
+<p>Component 2 is odd?</p>
+<List @array={{this.numbers}} @button={{this.odd}}></List>
+<p>Component 3 Pow</p>
+<List @array={{this.numbers}} @button={{this.pow}}></List>
+
+

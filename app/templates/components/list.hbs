@@ -1,0 +1,15 @@
+<div class="comp">
+
+	
+	{{#each @array as |number|}}
+		<p>{{number}}</p>
+		
+		
+	   
+		<button {{action this.onClick number}} > Click Me! {{number}}</button>
+
+	{{/each}}
+
+
+</div>
+
